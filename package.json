@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Tutoriel suivi sur la chaine YT de grafikart [Apprendre le Javascript : Découvert de fastify](https://www.youtube.com/watch?v=YnWjki-M-7A)",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "watch": "node --watch /scr/server.js"
   },
