@@ -1,0 +1,23 @@
+{
+  "name": "app-web-with-nodejs-and-fastify",
+  "version": "1.0.0",
+  "description": "Tutoriel suivi sur la chaine YT de grafikart [Apprendre le Javascript : Découvert de fastify](https://www.youtube.com/watch?v=YnWjki-M-7A)",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node --watch /scr/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alban-Care/app-web-with-nodejs-and-fastify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alban-Care/app-web-with-nodejs-and-fastify/issues"
+  },
+  "homepage": "https://github.com/Alban-Care/app-web-with-nodejs-and-fastify#readme",
+  "dependencies": {
+    "fastify": "^4.9.2"
+  }
+}
