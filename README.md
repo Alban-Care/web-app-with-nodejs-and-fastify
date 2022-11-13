@@ -28,6 +28,13 @@ npm i fastify # pour installer fastify et ses dépendances
 echo "/node_modules/" >> .gitignore # pour empêcher git de suivre les fichiers dans le dossier /node_modules/
 ```
 
+## Choix des dépendances
+
+[@fastify/view](https://github.com/fastify/point-of-view) est un module fastify qui permet d'utilise plusiers moteurs de template.
+Parmi eux on retrouve [Twig](https://twig.symfony.com/) déjà utilisé dans le framework symfony
+
+`npm i @fastify/view twig`
+
 ## Commandes utiles !
 
 - `npm run watch` Ajout de la commande au package.json pour démarrer le serveur de développement avec le mode watch

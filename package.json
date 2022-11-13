@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/Alban-Care/app-web-with-nodejs-and-fastify#readme",
   "dependencies": {
-    "fastify": "^4.9.2"
+    "@fastify/view": "^7.1.2",
+    "fastify": "^4.9.2",
+    "twig": "^1.15.4"
   }
 }

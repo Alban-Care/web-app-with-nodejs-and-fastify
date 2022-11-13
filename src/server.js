@@ -1,4 +1,6 @@
 import Fastify from "fastify";
+import fastifyView from "@fastify/view";
+import twig from "twig";
 
 // https://www.fastify.io/docs/latest/Guides/Getting-Started/
 
@@ -6,9 +8,16 @@ const fastify = Fastify({
   logger: false, // default false
 });
 
+// register plugin
+fastify.register(fastifyView, {
+  engine: {
+    twig,
+  },
+});
+
 // Declare a route
-fastify.get("/", async (request, reply) => {
-  return { hello: "world" };
+fastify.get("/", (req, res) => {
+  res.view("templates/index.html.twig");
 });
 
 /**
