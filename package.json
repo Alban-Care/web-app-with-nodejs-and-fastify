@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Tutoriel suivi sur la chaine YT de grafikart [Apprendre le Javascript : Découvert de fastify](https://www.youtube.com/watch?v=YnWjki-M-7A)",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "watch": "node --watch /scr/server.js"
+    "watch": "node --watch src/server.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/Alban-Care/app-web-with-nodejs-and-fastify#readme",
   "dependencies": {
-    "fastify": "^4.9.2"
+    "@fastify/view": "^7.1.2",
+    "fastify": "^4.9.2",
+    "twig": "^1.15.4"
   }
 }
