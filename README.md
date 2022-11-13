@@ -28,6 +28,10 @@ npm i fastify # pour installer fastify et ses dépendances
 echo "/node_modules/" >> .gitignore # pour empêcher git de suivre les fichiers dans le dossier /node_modules/
 ```
 
+## Commandes utiles !
+
+- `npm run watch` Ajout de la commande au package.json pour démarrer le serveur de développement avec le mode watch
+
 ## Tips & tricks
 
 - node possède depuis la version 18.11 un "watch mode" experimental `node --watch` qui permet d'observer les changements et réactualiser automatiquement (à défaut il est toujours possible d'utiliser le paquet `nodemon`)
